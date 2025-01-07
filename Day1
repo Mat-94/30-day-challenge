@@ -1,0 +1,29 @@
+Project Title: Weather Dashboard with AWS S3 Integration
+Project Description:
+The Weather Dashboard is a Python-based application designed to fetch real-time weather data from the OpenWeather API and securely store it in an AWS S3 bucket for future analysis and accessibility. This project combines API interaction, cloud storage integration, and efficient data handling to create a scalable and reliable weather monitoring solution.
+
+The application retrieves weather information, including temperature, humidity, and weather conditions, for predefined cities. Each weather report is timestamped and uploaded to AWS S3 as a JSON file, ensuring structured and easily retrievable data storage.
+
+Key Features:
+Real-time Weather Data Fetching: Utilizes the OpenWeather API to fetch accurate and up-to-date weather data.
+Cloud Storage Integration: Automatically uploads weather data to an AWS S3 bucket for persistent storage.
+Dynamic Bucket Management: Verifies the existence of the S3 bucket and creates it if it does not exist.
+Scalable Design: Supports adding more cities with minimal configuration changes.
+Error Handling: Robust exception handling for API errors, AWS operations, and network failures.
+Technologies Used:
+Python: Core programming language for scripting and data handling.
+Boto3: AWS SDK for Python to interact with S3 services.
+Requests: For HTTP API communication with OpenWeather.
+AWS S3: Cloud storage service for storing weather data.
+Dotenv: Environment variable management for secure API key handling.
+Use Cases:
+Weather pattern analysis for specific cities.
+Cloud-based storage for historical weather data.
+Integration into larger data analytics pipelines.
+This project demonstrates expertise in Python scripting, API integration, and cloud storage management, making it an ideal example of modern software solutions leveraging cloud infrastructure.
+
+
+
+
+
+
